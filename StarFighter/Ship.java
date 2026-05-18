@@ -41,11 +41,11 @@ public class Ship extends MovingThing {
     }
 
     public void move(String direction) {
-        /* TODO: Ship movement */
+        /* TODO: Ship movement
         if (direction.equals("LEFT")) {
             setX(getX() - getSpeed());
-        }
-        /* ... */
+        } else if (direction.equals("RIGHT")) ...
+        */
     }
 
     public void draw(Graphics window) {

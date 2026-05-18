@@ -56,11 +56,12 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable {
         graphics.setColor(Color.blue);
         graphics.drawString("StarFighter", 25, 50);
 
-        /* TODO: Ship movement (0 = left, 1 = right, 2 = up, 3 = down) */
+        /* TODO: Ship movement (0 = left, 1 = right, 2 = up, 3 = down)
         if (keys[0]) {
             ship.move("LEFT");
         }
-        /* ... */
+        if (keys[1]) ...
+        */
 
         /* future: collision detection to see if bullets hit the aliens or the ship */
 
@@ -79,7 +80,7 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable {
         if (ev.getKeyCode() == KeyEvent.VK_UP || ev.getKeyCode() == KeyEvent.VK_W) {
             keys[2] = true;
         }
-        if (ev.getKeyCode() == KeyEvent.VK_DOWN || ev.getKeyCode() == KeyEvent.VK_D) {
+        if (ev.getKeyCode() == KeyEvent.VK_DOWN || ev.getKeyCode() == KeyEvent.VK_S) {
             keys[3] = true;
         }
 
@@ -96,7 +97,7 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable {
         if (ev.getKeyCode() == KeyEvent.VK_UP || ev.getKeyCode() == KeyEvent.VK_W) {
             keys[2] = false;
         }
-        if (ev.getKeyCode() == KeyEvent.VK_DOWN || ev.getKeyCode() == KeyEvent.VK_D) {
+        if (ev.getKeyCode() == KeyEvent.VK_DOWN || ev.getKeyCode() == KeyEvent.VK_S) {
             keys[3] = false;
         }
 
