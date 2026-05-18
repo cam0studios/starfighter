@@ -1,6 +1,6 @@
 # StarFighter
 
-A template repository for a Computer Science A AP 2026 video game project.
+A template repository the Computer Science A AP project.
 
 ## Instructions
 
