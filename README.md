@@ -21,6 +21,11 @@ A template repository the Computer Science A AP project.
   5. Click "Connect" on the new page, and you should now see a window for the game.
 
 ### Tips for editing
-  - Compiler errors in your program will show up under "Problems" in the bottom bar.
-  - Once you have started it, a small draggable menu will appear letting you easily restart and stop the game.
-  - Pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> will format your code, and it's a good practice to run this every time you save (<kbd>Ctrl</kbd> + <kbd>S</kbd>)
+- Compiler errors in your program will show up under "Problems" in the bottom bar.
+- Once you have started it, a small draggable menu will appear letting you easily restart and stop the game.
+- Pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> will format your code, and it's recommended to run this every time you save (<kbd>Ctrl</kbd> + <kbd>S</kbd>)
+
+### Committing
+- Before and after any major changes, it's a good idea to commit your changes, so if anything goes wrong you can easily see what you changed or revert to a previous version.
+- To do this, go to the icon that looks like a branch, and if you have made any changes since the last commit, there will be a green button.
+- Write a message describing the changes since the last commit, and when you are ready, press the green "Commit" button.
