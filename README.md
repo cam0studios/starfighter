@@ -23,3 +23,4 @@ A template repository for a Computer Science A AP 2026 video game project.
 ### Tips for editing
   - Compiler errors in your program will show up under "Problems" in the bottom bar.
   - Once you have started it, a small draggable menu will appear letting you easily restart and stop the game.
+  - Pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> will format your code, and it's a good practice to run this every time you save (<kbd>Ctrl</kbd> + <kbd>S</kbd>)
