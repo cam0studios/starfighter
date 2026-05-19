@@ -17,7 +17,7 @@ A template repository for the Computer Science A AP project.
 1. Right-click StarFighter.java and select "Run Java".
 2. If a popup appears asking to switch to Standard mode, click yes.
 3. If you are running the project without having made the required changes, the terminal will fill up with errors, but these can be ignored for now.
-4. A page prompting you to connect to noVNC may open up automatically, but if not, go to "Ports" in the bottom menu and click the globe icon next to the link.
+4. A page prompting you to connect to noVNC may open up automatically, but if not, go to "Ports" in the bottom menu and click the globe icon next to the link for port 6080.
 5. Click "Connect" on the new page, and you should now see a window for the game.
 
 ### Tips for editing
