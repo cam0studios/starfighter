@@ -83,6 +83,9 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable {
         if (ev.getKeyCode() == KeyEvent.VK_DOWN || ev.getKeyCode() == KeyEvent.VK_S) {
             keys[3] = true;
         }
+        if (ev.getKeyCode() == KeyEvent.VK_SPACE) {
+            keys[4] = true;
+        }
 
         repaint();
     }
@@ -99,6 +102,9 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable {
         }
         if (ev.getKeyCode() == KeyEvent.VK_DOWN || ev.getKeyCode() == KeyEvent.VK_S) {
             keys[3] = false;
+        }
+        if (ev.getKeyCode() == KeyEvent.VK_SPACE) {
+            keys[4] = false;
         }
 
         repaint();
