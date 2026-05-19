@@ -7,11 +7,23 @@
 			"vncPort": "5901"
 		}
 	},
-	"forwardPorts": [6080],
+	"forwardPorts": [
+		6080
+	],
 	"portsAttributes": {
 		"6080": {
 			"label": "desktop",
 			"onAutoForward": "openBrowser"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"extensions.disabled": [
+					"GitHub.copilot",
+					"GitHub.copilot-chat"
+				]
+			}
 		}
 	}
 }
